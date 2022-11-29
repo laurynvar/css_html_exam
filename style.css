@@ -8,7 +8,7 @@ header {
   background-color: white;
   height: 36px;
   justify-content: space-between;
-  padding: 20px 79%;
+  padding: 20px 9%;
 }
 
 .burgermenu {
@@ -23,4 +23,61 @@ header {
 
 nav a {
   display: none;
+}
+
+.first {
+  background-image: url(./images/mainpics/graphic.svg);
+  background-size: 100%;
+  background-position-x: 195px;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding: 30px;
+}
+
+.first h3 {
+  color: #ff3998;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 169px;
+  height: 19px;
+  top: 148px;
+}
+
+.first h1 {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  position: absolute;
+  width: 274px;
+  height: 116px;
+  top: 191px;
+}
+
+.first p {
+  color: #555555;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  position: absolute;
+  width: 274px;
+  height: 120px;
+  top: 331px;
+}
+
+.first button {
+  position: absolute;
+  width: 188px;
+  height: 75px;
+  top: 483px;
 }
