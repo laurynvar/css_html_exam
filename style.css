@@ -94,7 +94,7 @@ nav a {
   background-size: 100%;
   background-position-x: 195px;
   background-repeat: no-repeat;
-  height: 520px;
+  height: 250px;
   padding: 30px;
 }
 
@@ -128,7 +128,15 @@ nav a {
 
 .companies {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 15px;
+  grid-gap: 40px;
+  padding: 40px;
+}
+
+.companies img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
 }
