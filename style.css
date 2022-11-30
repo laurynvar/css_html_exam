@@ -186,16 +186,23 @@ nav a {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   overflow-x: scroll;
+  margin-bottom: 20px;
 }
 
 .gallery-item {
   padding-left: 30px;
   font-size: 1.2rem;
   text-align: center;
-  color: #d9d9d9;
+  color: #555555;
   scroll-snap-align: center;
 }
 
+figcaption {
+  font-family: "Inter", sans-serif;
+  background-color: #cccccc;
+  border-radius: 5%;
+  padding: 0;
+}
 .third {
   background-image: url(./images/mainpics/upsell-footer-image.svg);
   background-size: 55%;
@@ -342,4 +349,10 @@ span {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+}
+
+@media (min-width: 600px) {
+  body {
+    background: green;
+  }
 }
