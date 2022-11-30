@@ -90,12 +90,15 @@ nav a {
 }
 
 .second {
-  background-image: url(./images/mainpics/background.svg);
-  background-size: 100%;
-  background-position-x: 195px;
-  background-repeat: no-repeat;
   height: 250px;
   padding: 30px;
+  background: linear-gradient(
+      270deg,
+      rgba(57, 255, 160, 0.3),
+      rgba(12, 231, 49, 0) 70.71%
+    ),
+    linear-gradient(162deg, rgba(255, 57, 67, 0.8), rgba(255, 0, 34, 0) 70.71%),
+    linear-gradient(336deg, rgba(255, 129, 57, 1), rgba(255, 17, 0, 0) 90.71%);
 }
 
 .second h1 {
@@ -176,13 +179,21 @@ nav a {
   top: 1313px;
 }
 .gallerycontainer {
-  padding: 30px;
+  padding-top: 20px;
   display: flex;
   flex-wrap: nowrap;
   margin: 0;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   overflow-x: scroll;
+}
+
+.gallery-item {
+  padding-left: 30px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #d9d9d9;
+  scroll-snap-align: center;
 }
 
 .third {
