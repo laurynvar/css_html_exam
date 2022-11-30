@@ -176,8 +176,13 @@ nav a {
   top: 1313px;
 }
 .gallerycontainer {
-  display: flex;
   padding: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
 }
 
 .third {
@@ -317,4 +322,13 @@ footer {
   font-weight: 700;
   font-size: 16px;
   line-height: 4.8;
+}
+
+span {
+  padding: 30px;
+  color: #cccccc;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
